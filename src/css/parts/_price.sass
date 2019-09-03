@@ -1,0 +1,66 @@
+@import './interface'
+
+.price
+	background: url('../../img/price_bg.png') no-repeat center 
+	background-size: cover 
+	min-height: 500px
+	margin-top: 40px
+
+
+.price_title
+	margin-top: 100px
+	text-align: right 
+	font-family: $font-black
+	font-weight: 400
+	font-size: 30px
+	color: #000000
+
+
+.price_info
+	display: flex 
+	justify-content: flex-end 
+	&__inputs
+	   position: relative
+	   font-family: $font-reg
+	   font-weight: 400
+	   font-size: 14px
+	   margin: 20px 0
+	&__inputs:nth-child(1)
+	   margin-right: 20px
+	& i
+	   position: absolute 
+	   top: 14px
+	   right: 10px
+	   color: $form_color
+	& input 
+	   padding: 10px 30px
+	   background-color: $form_bg
+	   border: none 
+	   color: $form_color
+	  
+
+.price_get
+	display: flex 
+	justify-content: flex-end 
+	align-items: center 
+	&__text
+	   text-align: right 
+	   margin: 0 10px 0 0
+	   font-family: $font-reg
+	   font-size: 14px
+	   font-weight: 400
+	   color: #000000
+	&__button
+	   font-family: $font-bold
+	   font-weight: 700
+	   font-size: 16px
+	   color: #ffffff
+	   background-color: #1866af
+	   padding: 10px 15px
+	   border: none 
+	   border-radius: 5px
+
+
+.fa-clock
+	font-size: 25px
+	margin-right: 25px
