@@ -1,0 +1,65 @@
+@import './interface'
+
+
+.questions
+	padding: 15vh 0
+	background-color: #0b3554
+	color: #ffffff
+
+
+.questions_article
+	text-align: center 
+	&__title
+	   font-family: $font-black
+	   font-weight: 400
+	   font-size: 36px
+	&__under_title
+	   margin-top: 15px
+	   font-family: $font-reg
+	   font-weight: 400
+	   font-size: 20px
+
+
+.q_part
+	display: flex 
+	flex-direction: column 
+	justify-content: center 
+	height: 100%
+	margin-top: 35px
+	&__questions
+	   cursor: pointer
+	   padding: 0
+	   display: flex 
+	   list-style: none 
+	   font-family: $font-bold
+	   font-weight: 700
+	   font-size: 16px
+	&__questions span 
+	   width: 10px
+	   height: 10px
+	   margin-right: 20px
+	&__answers
+	   display: none 
+	   font-family: $font-reg
+	   font-weight: 400
+	   font-size: 14px
+	   list-style: none 
+	   margin: 10px 0
+	&__last_question
+	   text-decoration: none 
+	   color: #ffffff
+	   font-family: $font-reg
+	   font-size: 14px
+	   font-weight: 400	   
+	&__last_question:hover
+	   text-decoration: none 
+	   color: $y_color
+
+
+.fa-sync-alt
+	margin: 20px 5px 0 0
+
+
+
+.q_ava
+	margin-top: 30px
