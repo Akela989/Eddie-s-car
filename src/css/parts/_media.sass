@@ -1,14 +1,43 @@
 @import './_mixins/breakpoints'
 @import './interface'
 
-
++lg-block()
+	.insurance_items
+		&__text
+		   font-size: 15px
+	.bonus_item
+		&__text
+		   font-size: 16px
+	.brigade_item
+		&__text
+		   font-size: 17px
 
 +md-block()
 	.time_table
-		align-items: flex-end 
-
-
-
+		align-items: flex-end
+	.insurance_items
+		&__text
+		   font-size: 17px
+	.bonus_item
+		&__text
+		   font-size: 17px
+	.q_part
+		text-align: center 
+		&__questions
+		   display: flex 
+		   justify-content: center 
+	.q_ava
+		text-align: center 
+	.brigade_article
+		&__text
+		   font-size: 30px
+	.footer_contacts
+		display: flex 
+		align-items: center 
+	#footer_page
+		padding-bottom: 20px
+	.footer_title
+		justify-content: flex-end 
 +sm-block()
 	.header_contacts
 		font-size: 13px
@@ -20,3 +49,41 @@
 		align-items: flex-start
 	.header_top_side
 		padding-bottom: 20px
+	.header_card
+		padding: 20px 30px 20px 30px
+		&__title
+		   font-size: 32px
+		&__under_title
+		   font-size: 18px
+	.card_benefits
+		&__text
+		   font-size: 16px
+	.s_form
+		display: flex 
+		justify-content: center 
+	.insurance_items
+		&__text
+		   font-size: 17px
+	.bonus_article
+		&__title
+		   font-size: 27px
+	.brigade_article
+		&__text
+		   font-size: 22px
+
++xs-block()
+	.bonus_article
+		&__title
+		   font-size: 22px
+	.questions_article
+		&__title
+		   font-size: 32px
+	.advantages_article
+		&__title
+		   font-size: 32px
+	.storage_article
+		&__title
+		   font-size: 32px
+	.brigade_article
+		&__text
+		   font-size: 19px
