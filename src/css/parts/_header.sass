@@ -85,3 +85,87 @@
 
 .adapt
 	display: none 
+
+
+.overlay 
+	z-index: 1001
+	position: fixed
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	background-color: rgba(0, 0, 0, .8)
+	display: none
+
+.popup 
+	position: fixed
+	width: 300px
+	left: 50%
+	top: 50%
+	display: flex 
+	flex-direction: column
+	align-items: center 
+	justify-content: center 
+	transform: translate(-50%, -50%)
+	padding: 40px
+	box-sizing: border-box
+	background-color: #1669b3
+	color: #fff
+	border-radius: 10px
+	&__button
+	   padding: 5px 20px
+	   margin-top: 20px
+	   font-family: $font-bold
+	   font-weight: 700
+	   font-size: 16px
+	   font-weight: 400
+	   color: #000000
+	   border: none
+	   background-color: #fff
+	   border-radius: 5px   
+	& h3
+	   text-align: center 
+	   font-family: $font-bold
+	   font-weight: 700
+	   font-size: 18px
+	   text-transform: uppercase
+	   color: #ffffff
+	   padding-bottom: 20px
+
+
+.popup input
+	margin: 5px 0
+	padding: 5px 0 5px 7px
+	border: none 
+	border-radius: 3px
+
+.close-popup 
+	position: absolute
+	top: 15px
+	right: 15px
+	width: 23px
+	height: 23px
+	cursor: pointer
+
+
+.close-popup:before 
+	content: ''
+	background-color: #ffffff
+	position: absolute
+	height: 1px
+	width: 15.5px
+	top: 11px
+	left: -4px
+	transform: rotate(-45deg)
+
+
+.close-popup:after 
+	content: ''
+	background-color: #ffffff
+	position: absolute
+	height: 1px
+	width: 15.5px
+	top: 11px
+	transform: rotate(45deg)
+	left: -4px
+
