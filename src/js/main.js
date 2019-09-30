@@ -26,3 +26,8 @@ $(document).mouseup(function (e) {
     $('.js-overlay-campaign').fadeOut();
   }
 });
+
+
+$(function($){
+	$('[name="phone"]').mask("+9(999) 999-9999");
+});
